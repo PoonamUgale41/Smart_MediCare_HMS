@@ -1,4 +1,4 @@
-.{
+*{
     margin: 0%;
     padding: 0%;
 }
@@ -33,19 +33,22 @@ ul li a{
 .main{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 90px;
     background-color:rgba(162, 162, 234, 0.61) ;
     padding: 33px;
+    gap: 30px;
 }
 .main img{
-    width: 720px;
+    width: 100%;
+    max-width: 720px;
 }
 .mainText{
     margin-top: 44px;
     color: white;
 }
 .mainText h1{
-    font-size: 66px;
+    font-size: 48px;
 }
 .mainText p{
     margin-top: 22px;
@@ -58,15 +61,17 @@ ul li a{
     color: white;
     font-size: 20px;
     border: none;
+    cursor: pointer;
 }
 .head{
     text-align: center;
-    padding: 88px;
+    padding: 50px;
 }
 .service{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
 .service .serviceCard{
     width: 200px;
@@ -74,5 +79,16 @@ ul li a{
     border: 2px solid black;
     text-align: center;
     margin-inline: 22px;
+    border-radius: 10px;
 }
-.
+.serviceCard img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.team img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
