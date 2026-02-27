@@ -9,7 +9,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(162, 162, 234, 0.61);
+    background-color: rgba(42, 42, 228, 0.61);
     position: fixed;
     top: 0%;
     width: 100%;
@@ -34,8 +34,45 @@ ul li a{
     display: flex;
     justify-content: center;
     margin-top: 90px;
-
+    background-color:rgba(162, 162, 234, 0.61) ;
+    padding: 33px;
 }
 .main img{
-    
+    width: 720px;
 }
+.mainText{
+    margin-top: 44px;
+    color: white;
+}
+.mainText h1{
+    font-size: 66px;
+}
+.mainText p{
+    margin-top: 22px;
+}
+.mainText button{
+    margin-top: 22px;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.head{
+    text-align: center;
+    padding: 88px;
+}
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service .serviceCard{
+    width: 200px;
+    padding: 22px;
+    border: 2px solid black;
+    text-align: center;
+    margin-inline: 22px;
+}
+.
