@@ -92,3 +92,25 @@ ul li a{
     height: 150px;
     border-radius: 10px;
 }
+.doctors{
+    width: 830px;
+    height:100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.team{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+}
+.team img{
+    width: 240px;
+    height: 230px;
+    margin-inline: 20px;
+
+}
