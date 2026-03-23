@@ -1,0 +1,1 @@
+let doctors = document.querySelectorAll(".team")
