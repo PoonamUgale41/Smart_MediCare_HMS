@@ -109,6 +109,8 @@ ul li a{
     display: flex;
     justify-content: center;
     gap: 20px;
+    transition: all 1s ease;
+
 }
 .team img{
     width: 150px;
