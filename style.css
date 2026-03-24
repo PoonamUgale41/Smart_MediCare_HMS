@@ -210,8 +210,11 @@ ul li a{
     background-color: lightblue;
     text-align: center;
     position: fixed;
+    object-fit: cover;
+    display: block;
     top: 5%;
     left: 50%;
     right: 50%;
-    transform: translate(-50%, 40%);
+    transform: translate(-50%,-40%);
 }
+
