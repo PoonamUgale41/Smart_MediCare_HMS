@@ -90,11 +90,13 @@ ul li a{
     text-align: center;
     margin-inline: 22px;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 .serviceCard:hover{
     transform: scale(1.08);
     box-shadow: 0,12px 40px rgba(0, 0, 0, 0.3);
+    background-color: lightblue;
 
 }
 .serviceCard img{
@@ -146,7 +148,7 @@ ul li a{
 .blogCard{
     width: 300px;
     padding: 20px;
-    background-color: rgb(1,75,75);
+    background-color: rgb(92, 183, 183);
     color: white;
     margin-inline: 20px;
     align-content: center;
