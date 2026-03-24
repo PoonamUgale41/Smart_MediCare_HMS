@@ -26,5 +26,14 @@ setInterval(function(){
 card.forEach(function(curCard){
     curCard.addEventListener("click", function(){
         console.log(curCard);
+        let div = document.createElement("div");
+        div.classList.add("detailCard");
+        div.innerHTML=`
+        <img src=${curCard.firstElementChild.src} alt="">
+        <h2>${curCard.lastElementChild.innerHTML}</h2>
+        <p>services are available 24 hours a day,7 days a week,without interruption and no waiting for hours. Contact : tel-108</p>
+        `
+        document.querySelector("body").appendChild(div)
+
     })
 })
