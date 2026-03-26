@@ -5,6 +5,7 @@
 }
 body{
     font-family: Arial, sans-serif;
+    background-color: rgba(221, 244, 248, 0.589);
 }
 nav{
     display: flex;
@@ -152,6 +153,7 @@ ul li a{
     color: white;
     margin-inline: 20px;
     align-content: center;
+    margin-top: 22PX;
 }
 .blogCard img{
     width: 100%;
@@ -170,23 +172,38 @@ ul li a{
     width: 400px;
     text-align: center;
     margin: auto;
-    padding: 22px;
-    background: rgb(233, 233, 226);
+    padding: 30px;
+    background: rgb(131, 185, 243);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+}
+.appoinment-head{
+    margin-bottom: 20px;
+    color: #333;
 }
 .form input{
-    width: 90%;
+    width: 100%;
     font-size: 20px;
-    padding: 11px;
-    margin-top: 22px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    margin: 22px 0;
+    transition: all 0.3s ease;
 }
 .form button{
-    width:140px;
+    width:100%;
+    padding: 12px;
     height: 40px;
     background-color: black;
     color: white;
     font-size: 20px;
     border:none;
-    margin-top: 22px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    margin-top: 15px;
 }
 .footer{
     display: flex;
@@ -214,4 +231,9 @@ ul li a{
     right: 50%;
     transform: translate(-50%,40%);
 }
-
+@media screen and (max-width:1100px) {
+    .main{
+        display: block;
+        text-align: center;
+    }
+}
